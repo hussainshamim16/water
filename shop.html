@@ -6,7 +6,7 @@
     <title>Shope | Mani.com</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <style>
     body{
@@ -66,19 +66,29 @@ color: green;
    
    </header>
 
-   <div class="shope-text flex">
+   <div class="shope-text flex" data-aos="fade-in">
     <h2 class="blue">Shop all</h2>
 <p>Discover a world of brilliant hydration</p>
    </div>
-   <div class="img flex">
+   <div class="img flex" data-aos="fade-up">
     <img src="https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/v1685535123/assets/spa/v3/shop/navigation/purification_v3.png" alt="" width="160px">
     <img src="https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/v1685535123/assets/spa/v3/shop/navigation/drinkware_v3.png" alt="" width="160px">
     <img src="https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/w_900/v1701177839/SKU/SPA/v3/BBBSBO071095SHG050074.png" alt="" width="160px">
 
    </div>
 
-   <a href="./index.html" class="back-Link">This offer has ended</a>
+   <a href="./index.html" class="back-Link" data-aos="fade">This offer has ended</a>
  
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 100,
+    delay: 85, 
+    duration: 900,
+      });
+    </script>
 </body>
+
 </html>
