@@ -1,0 +1,543 @@
+*{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+    box-sizing: border-box;
+
+   
+ 
+}
+body{
+ margin: 0px ;
+    padding: 0px;
+
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.border{
+    /* border: 2px solid red; */
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+
+}
+
+.background{
+    background-color: rgba(2, 120, 255, 0.137);;
+
+}
+
+.blue{
+ color: #012146;
+}
+
+/* ----------------------/// first-page */
+
+.first-page{
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+
+    height: 95vh;
+
+    background-image: linear-gradient(rgba(98, 183, 252, 0.61),rgb(255, 255, 255)),url('https://www.foodrepublic.com/img/gallery/the-scientific-reason-water-tastes-better-when-youre-thirsty/l-intro-1687882982.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    
+}
+
+
+
+.first-page header{
+    margin-top: 20px;
+    position: static;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    /* background-color: #ffffffe3; */
+    color: #002a5a;
+}
+
+.first-page .second{
+    justify-content: space-around;
+}
+
+.first-page .second h1{
+    font-size: 60px;
+    width: 300px;
+
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+.first-page .second p{
+    font-size: 20px;
+    width: 400px;
+  
+
+ 
+}
+.first-page .second a{
+   background-color: aliceblue;
+   border-radius: 20px;
+  box-shadow: 12px 15px 10px 2px #0000002c;
+   color: #002a5ac7;
+   font-weight: 700;
+   /* border: 2px solid red; */
+   text-align: left;
+   text-decoration: none;
+   padding: 10px 80px;
+
+   transition-duration: 0.9s;
+    transition-delay: 0.1s;
+ 
+}
+
+.first-page .second a:hover{
+    box-shadow: none;
+    background-color: #002a5ad0;
+    color: white;
+}
+
+.first-page .secondImage{
+    width: 18%;
+    flex-direction: column;    
+    text-align: center;
+   
+    background-color: rgb(255, 255, 255);
+    color: #002a5a;
+   
+    font-size: 11px;
+    padding: 5px 13px;
+    border-radius: 20px;
+    margin-top: 120px;
+
+    width: 210px;
+
+    transition-duration: 0.9s;
+    transition-delay: 0.1s;
+}
+
+.first-page .secondImage:hover{
+    background-color: #ffffff54;
+  
+    
+
+}
+/* ----------- first section completed------------- */
+
+/* second section */
+
+.second-page{
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+}
+
+.second-page .text{
+    /* border: 2px solid red; */
+    padding-left: 30px;
+}
+
+.second-page h1{
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+/* ----------------------- swiper open*/
+.swiper {
+    width: 100%;
+    height: 55vh;
+    
+  }
+
+  .swiper-slide {
+
+    text-align: center;
+    font-size: 18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .reviews{
+    width: 100%;
+    padding: 20px 2px 20px 0px;
+    justify-content: space-around;
+  }
+  .reviewsBox{
+    width: 43%;
+    height: 40vh;
+
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: 2px solid red;
+    text-align: left;
+  }
+
+  .reviewsBox h2{
+    color: #012146;
+  }
+/* ----------------------- swiper close*/
+
+/* ----------- second section completed------------- */
+
+/* third section */
+
+.third-section{
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+
+    height: 115vh;
+}
+
+.third-section .text{
+    padding-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.image-boxes{
+    flex-direction: row;
+    justify-content: space-around;
+
+   
+}
+.image-real{
+flex-direction: column;
+
+}
+
+.image-boxes img{
+    border-radius:  20px;
+    margin-bottom: 20px;
+    /* box-shadow: 20px 20px 20px 2px #0000003a; */
+
+    transition-duration: 0.2s;
+    transition-delay: 0.10s;
+}
+
+.image-boxes img:hover{
+    opacity: 0.5;
+
+   
+}
+
+/* ----------------------------------------------third is compleate */
+/* -------------------------fourth-section */
+.fourth-section{
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    
+}
+
+.fourth-section .big-box{
+    width: 85%;
+    height: 60vh;
+
+border-radius: 10px;
+    padding: 20px;
+}
+
+.big-box{
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.big-box h2{
+   color: #002a5a;
+   width: 200px;
+}
+.big-box p{
+    /* text-align: center; */
+    width: 200px;
+    
+}
+
+/* ----------------------------------------------fourth is compleate */
+.alagsay{
+    font-size: 40px;
+    color: #002a5a;
+    padding-left: 20px;
+  
+}
+/* -------------------------fivth-section */
+.fivth-section{
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+
+    height: 95vh;
+
+    background-image:  linear-gradient(rgba(11, 133, 233, 0.733),rgb(255, 255, 255)),url('https://yardandgardenguru.com/wp-content/uploads/2022/10/Bottled-water-life-span.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
+.fivth-section .text{
+    /* margin-top: 5%; */
+    width: 60%;
+    /* border : 2px solid white; */
+    padding-top: 70px;
+    padding-left: 20px;
+
+}
+.fivth-section h2{
+    margin-top: -20px;
+    font-size: 50px;
+}
+.fivth-section p{
+    width: 400px;
+    font-size: 25px;
+}
+.fivth-section a{
+    background-color: aliceblue;
+    border-radius: 20px;
+   box-shadow: 12px 15px 10px 2px #0000002c;
+    color: #002a5ac7;
+    font-weight: 700;
+    /* border: 2px solid red; */
+    text-align: left;
+    text-decoration: none;
+    padding: 10px 80px;
+ 
+    transition-duration: 0.9s;
+    transition-delay: 0.1s;
+ 
+ }
+ 
+ .fivth-section a:hover{
+     box-shadow: none;
+     background-color: #002a5ad0;
+     color: white;
+ }
+ 
+/* -------------------------sixth-section */
+
+.sixth-section{
+    flex-direction: row;
+    align-items: normal;
+    justify-content: normal;
+
+    height: 100vh;
+}
+.sixth-section .text{
+    padding-left: 20px;
+/* border: 2px solid red; */
+margin-bottom: 20px;
+width: 700px;
+}
+
+.sixth-section h2{
+    font-size: 45px;
+    margin-bottom: -2px;
+}
+.sixth-section p{
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+
+/* -------------------- .swiper */
+.next{
+    width: 100%;
+    height: 90vh;
+}
+.next-sec{
+    width: 100%;
+    height: 20vh;
+
+    /* border: 2px solid red; */
+}
+
+.ema{
+    width: 100%;
+  
+}
+
+.sec-slide{
+    flex-direction: column;
+}
+
+.contain img{
+    /* box-shadow: 20px 10px 20px 10px #07070780; */
+    border-radius: 20px;
+}
+
+
+/* ---------------------- footer */
+.seventh-section{
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+
+    height: 39vh;
+    padding-left: 20px;
+    background: linear-gradient(#bbd3ff,#ffffff);
+    
+}
+
+.container{
+  
+    justify-content: space-between;
+    padding: 0px 2px;
+    
+}
+
+.first-text h2{
+    color: #002a5a;
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+.first-text p{
+    color: rgba(0, 0, 0, 0.685);
+    font-size: 19px;    
+    width: 360px;
+}
+.first-text input{
+    font-size: 19px;    
+    width: 260px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 2px 2px 2px 9px;
+    opacity: 0.8;
+}
+
+.second-text li{
+    color: rgba(0, 0, 0, 0.575);
+list-style: none;
+font-size: 17px;
+}
+
+.foterrr{
+    text-align: center;
+    /* background-color: rgba(2, 101, 214, 0.137);; */
+    color: #002a5a;
+}
+
+
+
+
+
+
+/* ------------------------mobile */
+
+@media screen and (max-width: 799px) {
+   .first-page{
+    flex-direction: column;
+    justify-content: center;
+
+    height: 130vh;
+   }
+.first-page .second{
+    flex-direction: column-reverse;
+    text-align: center  ;
+}
+   .first-page header{
+    margin-top: -31px;
+   }
+   .first-page .second h1{
+    font-size: 20px;
+    /* width: 800px; */
+   }
+
+   .first-page .second p{
+    font-size: 16px ;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+    color: black;
+   }
+
+   .second-page .text{
+    padding-left: 10px;
+
+   }
+   .second-page h1{
+    font-size: 30px;
+   }
+   .second-page p{
+    font-size: 10px;
+   }
+
+   .swiper{
+    height: 70vh;
+   }
+
+   .reviewsBox h2{
+    font-size: 12px;
+   }
+   .reviewsBox p{
+    font-size: 10px;
+   }
+
+   .third-section{
+    height: 190vh;
+    margin-top: -20px;
+
+
+    justify-content: center;
+   }
+   .third-section .text{
+    font-size: 20px;
+   }
+
+   .image-boxes{
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .image-real{
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+   .image-boxes img{
+    width: 200px;
+    height: 200px;
+   }
+   .fourth-section{
+    background-color: rgb(2, 120, 255);;
+    height: 200vh;
+   }
+
+   .big-box{
+    flex-direction: column;
+    justify-content: center;
+   }
+}
+
+/* ----------------/////////////- tablet laptop */
+
+@media screen and (min-width: 800px),(max-width: 1280px) {
+    
+}
+
+
+
